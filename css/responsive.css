@@ -3,7 +3,9 @@
     #topbar{
             justify-content: left;
     }
-    
+    .container{
+        padding: 30px;
+    }
     
     
 }
