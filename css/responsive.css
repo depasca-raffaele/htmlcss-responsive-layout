@@ -12,5 +12,15 @@
     .recipe-name{
         font-size: 30px;
     }
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .quick-notes li{
+        flex-basis: calc((100% / 3) - (20px * 2) / 3);
+    }
+
     
 }
