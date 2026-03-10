@@ -24,6 +24,9 @@
     .social-networks button{
         width: 100%;
     }
+    .ads{
+        display: block;
+    }
 
     
 }
