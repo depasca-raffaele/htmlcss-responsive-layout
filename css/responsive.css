@@ -21,16 +21,16 @@
     .quick-notes li{
         flex-basis: calc((100% / 3) - (20px * 2) / 3);
     }
-    .social-networks button{
+    /* .social-networks button{
         width: 100%;
-    }
+    } */
     .ads{
         display: block;
     }
-    .presentation img{
+    /* .presentation img{
         float: left;
         margin-right: 20px;
-    }
+    } */
 }
 
 @media screen and (min-width: 992px){
@@ -61,5 +61,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
 }
+
+/* BONUS */
+
+@media screen and (min-width: 576px) {
+    .presentation img{
+        float: left;
+        margin-right: 20px;
+    }
+    .social-networks button{
+        width: 100%;
+    }
 }
