@@ -6,6 +6,9 @@
     .container{
         padding: 30px;
     }
+    .recipe-name::after{
+        content: "(Dolce Tradizionale)";
+    }
     
     
 }
